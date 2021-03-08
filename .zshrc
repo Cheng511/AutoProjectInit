@@ -11,7 +11,7 @@ function create() {
     git init
     git add README.md
     git commit -m "Initial Commit"
-    git remote add origin https://github.com/Cheng511/$1.git
+    git remote add origin https://github.com/USERNAME/$1.git
     git push --set-upstream origin master
     code .
 }
